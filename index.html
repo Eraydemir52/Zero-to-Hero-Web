@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body onscroll="scrollFn()">
+    <main>
+      <nav class="menu" id="menu">
+        <ul>
+          <li>
+            <a href="#home" id="home-button">Home</a>
+          </li>
+          <li>
+            <a href="#gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="section-main" id="home">
+        <div class="hero">
+          <h1>Travel Time</h1>
+          <div class="hero-sub">
+            Reklam danişmanliğini yaptiğim Amerikali bir yapay zeka firmasindan
+            dolayi rekabet içerisinde
+          </div>
+          <a href="#" class="hero-buttom">Join</a>
+        </div>
+      </section>
+      <section class="section-gallery" id="gallery">
+        <div>
+          <h2>Gallery</h2>
+          <div class="cards">
+            <div class="card">
+              <img
+                src="assets/images/gallery/beautiful-landscape-view-of-fuji-mountain-in-royalty-free-image-1623253648.jpg"
+                alt="Mountain"
+              />
+              <div class="card-content">
+                <div class="card-title">Mountain</div>
+                <div class="card-desc">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Alias, sit. Voluptates nihil ipsum nostrum optio maiores
+                  similique consectetur dolores exercitationem vitae earum. Non
+                  beatae iusto, dolore in eligendi libero tempore.
+                </div>
+                <a href="#" class="read-more">Read more</a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="assets/images/gallery/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
+                alt="Mountain"
+              />
+              <div class="card-content">
+                <div class="card-title">Mountain</div>
+                <div class="card-desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Provident nulla tenetur sit nobis? Nihil voluptates atque
+                  cupiditate quam? Nam quo optio sit illo laborum maxime quam
+                  nobis deserunt sed vel.
+                </div>
+                <a href="#" class="read-more">Read more</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="assets/images/gallery/images.jpeg" alt="Mountain" />
+              <div class="card-content">
+                <div class="card-title">Mountain</div>
+                <div class="card-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates officiis facere et obcaecati est voluptatem
+                  inventore ut quidem unde perferendis ratione quod, natus fugit
+                  in? Minima quae officiis aperiam. Vero.
+                </div>
+                <a href="#" class="read-more">Read more</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="assets/images/gallery/Mountain-2-960x640.jpg"
+                alt="Mountain"
+              />
+              <div class="card-content">
+                <div class="card-title">Mountain</div>
+                <div class="card-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime a debitis sequi aut ducimus animi? Mollitia earum
+                  maxime soluta esse quasi, nostrum ipsum totam veniam magni
+                  architecto quidem. Eveniet, expedita!
+                </div>
+                <a href="#" class="read-more">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-about" id="about">
+        <div class="about-container">
+          <h2>About Us</h2>
+          <div class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            ducimus explicabo unde facilis sapiente rem error? Hic ea voluptas
+            incidunt eligendi sit laudantium modi praesentium perferendis
+            cupiditate, ipsa explicabo voluptates. Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Dolorum facilis hic similique velit
+            quibusdam nam, quae ex esse obcaecati recusandae delectus corrupti
+            veritatis vitae quam nulla vel earum iste iure! Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Assumenda enim amet quos quia
+            minima dignissimos consequuntur corrupti asperiores repellendus
+            omnis, facilis at error necessitatibus voluptate aliquam accusantium
+            dolorum quibusdam minus!
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      var isim = "Ahmet ";
+      var soyisim = "Yilmaz ";
+      var tamisim = isim + "" + soyisim;
+      console.log(tamisim, yas);
+      console.log("Merhaba Dünya");
+      var yas = 25 + 1;
+      var buYil = new Date().getFullYear();
+      console.log(buYil - yas);
+
+      //Aşağıdaki sayfa aşağı doğru çekildiğinde üst menüyü karaltmak için kullanılır
+      // function scrollFn() {
+      //   if (window.pageYOffset > 100) {
+      //     document.getElemenltById("menu").classList.add("menu-scroll");
+      //   } else {
+      //     document.getElementById("menu").classList.remove("menu-scroll");
+      //   }
+      // }
+    </script>
+  </body>
+</html>
